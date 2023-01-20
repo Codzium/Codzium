@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Codzium - Gallery Section</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css">
+    <script src="script.js" defer></script>
+    <script src="https://cdn.tailwindcss.com" ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.png"  type="image/x-icon">
+</head>
+<body>
+    <header
+    class="body-font bg-[#12171f]  w-[100%]  bg-opacity-80 "
+  >
+    <nav class="px-16 ">
+      <div
+        class="container flex flex-col items-center p-5 mx-auto md:flex-wrap md:flex-row"
+      >
+        <div class="flex items-center gap-10 logo">
+          <div class="flex items-center">
+            <span
+              class="px-2 py-2 text-xl font-bold text-black bg-yellow-500 rounded-full"
+              ><a href="D:\Codzium\index.html">&#60;&#92;&#62;</a></span
+            >
+            <span class="ml-1 text-xl text-white"><a href="index.html">Codzium</a></span>
+          </div>
+          <div class="md:hidden">
+            <button
+              class="inline-flex items-center px-5 py-1.5 text-base font-medium text-black bg-yellow-500 border border-yellow-500 rounded hover:border-yellow-500 hover:text-yellow-500 hover:bg-transparent md:mt-0"
+            >
+              Donate
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-4 h-4 ml-1"
+                viewBox="0 0 24 24"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div
+          class="items-center justify-center hidden px-8 mt-4 md:flex md:px-5 md:mt-0 ext-base md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400"
+        >
+        <a href="D:\Codzium\index.html"
+        class="mr-5 text-white one hover:cursor-pointer hover:text-yellow-500"
+        >Components</a
+      >
+      <!-- <a
+        class="mr-5 text-white two hover:cursor-pointer hover:text-yellow-500"
+        >Templates</a
+      > -->
+      <!-- <a
+        class="mr-5 text-white two hover:cursor-pointer hover:text-yellow-500"
+        >Gradients</a
+      > -->
+      <!-- <a
+        class="mr-5 text-white two hover:cursor-pointer hover:text-yellow-500"
+        >Shaper</a
+      > -->
+      <!-- <a
+        class="mr-5 text-white three hover:cursor-pointer hover:text-yellow-500"
+        >About</a
+      > -->
+      <a href="mblog.html" 
+        class="mr-5 text-white four hover:cursor-pointer hover:text-yellow-500"
+        >Blog</a
+      >
+        </div>
+
+        <button
+          class="md:inline-flex items-center px-5 py-1.5 hidden mt-4 text-base font-medium text-black bg-yellow-500 border border-yellow-500 rounded hover:border-yellow-500 hover:text-yellow-500 hover:bg-transparent md:mt-0"
+        >
+          Donate
+          <svg
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            class="w-4 h-4 ml-1"
+            viewBox="0 0 24 24"
+          >
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+     <!-- scroll-indiactor -->
+     <div class="sticky top-0 z-10 progress-container">
+        <div class="bg-yellow-500 progress-bar" id="myBar"></div>
+      </div>
+
+      
+    <div class="flex flex-col items-center justify-center space-y-2 cont" >
+        <h1 class="w-9/12 my-6 mt-10 text-4xl font-medium tracking-wider text-yellow-500 md:w-7/12 md:text-5xl">How to Use Tailwind CSS via CDN ?</h1>
+        <img src="3.png" class="w-9/12 rounded-lg md:h-96 h-80 md:w-7/12 " alt="">
+        <div class= "w-9/12 space-y-3 text-lg font-light tracking-wide text-gray-200 md:w-7/12">
+            <h2 class="mt-2 tracking-wider first-letter:text-4xl">You can create unique user interfaces fast and effectively using Tailwind CSS, a well-liked utility-first CSS framework. Utilizing a Content Delivery Network (CDN) to include the pre-built CSS file in your HTML file is one of the simplest methods to get started with Tailwind CSS. We'll go through exactly how to utilise Tailwind CSS with a CDN in this blog article.
+            </h2>
+            <h2 class="tracking-wider">
+              The Tailwind CSS file must first be included in the HTML file's head. This may be accomplished by including the following code in your HTML file:
+            </h2>
+            <h2 class="tracking-wider">
+              <pre class="block">
+                <code>
+&#x3C;link href=&#x22;https://cdn.jsdelivr.net/npm/tailwindcss@latest/dist/tailwind.min.css&#x22; rel=&#x22;stylesheet&#x22;&#x3E;
+
+                </code>
+              </pre>
+            </h2>
+
+            <h2 class="tracking-wider">
+              This will include the latest version of Tailwind CSS from the jsDelivr CDN.</h2>
+            <h2 class="tracking-wider">Utilizing the utility classes to design your HTML elements is possible once you've included the Tailwind CSS file. To set the background colour of an element to blue, for instance, or the text colour to red, use the "text-red-500" class. You may utilise the extensive collection of utility classes offered by Tailwind CSS to build unique designs.</h2>
+
+            <h2 class="tracking-wider">It's also important to note that Tailwind CSS offers responsive design classes that may be used to modify element layouts according to screen size. On medium screens or bigger, you might use the "md:w-1/3" class to have an element take up 1/3 of the width.</h2>
+            <h2 class="tracking-wider">
+
+              It's quick and simple to set up, which is one advantage of combining Tailwind CSS with a CDN. Tailwind CSS may be used on your website immediately without the need to instal any other programmes or libraries. Using a CDN also guarantees that your website will load quickly since the CSS file will be supplied from a server that is close to your users.</h2>
+
+            <h2 class="tracking-wider">
+              You will always have access to the most recent version of the framework when utilising Tailwind CSS with a CDN. You'll always receive the most recent version of the file since you're connecting to it on a CDN, as soon as it becomes available. This eliminates the need for you to manually update your Tailwind CSS file.</h2>
+
+<h2 class="tracking-wider">To sum up, combining Tailwind CSS with a CDN is a fantastic method to begin using the framework. The utility classes may be used straight immediately to style your HTML components, and setup is quick and simple. Using a CDN also guarantees that your website will load quickly and that you will always have access to the most recent version of the framework. Tailwind CSS and a CDN are great options if you're searching for a quick and effective solution to create unique user experiences.</h2>
+
+
+
+
+
+
+
+           
+        </div>
+
+        <h1 class="text-gray-200 ">Source : Internet </h1>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <footer
+    class="flex md:hidden items-center flex-col justify-center gap-2 p-3 py-5 pt-6 mt-10 bg-[#12171f]"
+  >
+    <div class="flex gap-5 left">
+      <div class="flex items-center -mt-2">
+        <span
+          class="px-2 py-2 text-xl font-bold text-black bg-yellow-500 rounded-full"
+          >&#60;&#92;&#62;</span
+        >
+        <span class="ml-1 text-xl text-white">Codezium</span>
+      </div>
+      <!-- <div class="w-[0.095rem] h-8 bg-white hidden md:block"></div> -->
+    </div>
+    <div class="flex text-white right">
+      Copyright &#169; 2023 . Made with ❤️ by
+      <span class="mx-1 font-medium text-yellow-500">Prakash</span>
+      <!-- <span class="mx-1 font-medium text-yellow-500">Bihar </span> -->
+      <!-- <img src="if.png" class="w-8 -mt-[0.18rem]" alt="" /> -->
+    </div>
+  </footer>
+
+  <!-- ===========FOOTER 2 SECTION STARTS HERE -->
+  <footer
+    class="md:flex items-center hidden justify-center gap-3 p-3 py-5 pt-6 mt-10 bg-[#12171f]"
+  >
+    <div class="left">
+      <div class="flex items-center">
+        <span
+          class="px-2 py-2 text-xl font-bold text-black bg-yellow-500 rounded-full"
+          >&#60;&#92;&#62;</span
+        >
+        <span class="ml-1 text-xl text-white">Codzium</span>
+      </div>
+    </div>
+    <div class="w-[0.095rem] h-8 bg-white"></div>
+    <div class="flex items-center text-white right">
+      Copyright &#169; 2023 . Made with ❤️ by
+      <span class="mx-1 font-medium text-yellow-500">Prakash</span>
+      <!-- <span class="mx-1 font-medium text-yellow-500">Bihar </span> -->
+      <!-- <img src="if.png" class="w-8 -mt-[0.18rem]" alt="" /> -->
+    </div>
+  </footer>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>  
+</body>
+</html>

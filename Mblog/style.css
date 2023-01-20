@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+body{
+    background-color: #1a202c;
+    font-family: 'Poppins', sans-serif;
+    /* background-image: url('lines.png'); */
+ 
+    /* background-size: contain; */
+}
+::selection{
+  background-color: #eab308;
+  color: black;
+}
+/* The progress container (grey background) */
+.progress-container {
+    width: 100%;
+    height: 8px;
+
+  }
+  
+  /* The progress bar (scroll indicator) */
+  .progress-bar {
+    height: 3px;
+
+    width: 0%;
+  }
+  .menu a:after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    display: block;
+    transition: all 0.3s ease;
+    bottom: 25%;
+  }
+  .menu .one:hover::after {
+    width: 3.6%;
+    height: 1px;
+    background-color: #eab308;
+  }
+  
+  .menu .two:hover::after {
+    width: 6.2%;
+    height: 1px;
+    background-color: #eab308;
+  }
+  
+  .menu .three:hover::after {
+    width: 3.5%;
+    height: 1px;
+    background-color: #eab308;
+  }
+  
+  .menu .four:hover::after {
+    width: 2.6%;
+    height: 1px;
+    background-color: #eab308;
+  }
+  

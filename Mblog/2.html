@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Codzium - Gallery Section</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css">
+    <script src="script.js" defer></script>
+    <script src="https://cdn.tailwindcss.com" ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.png"  type="image/x-icon">
+</head>
+<body>
+    <header
+    class="body-font bg-[#12171f]  w-[100%]  bg-opacity-80 "
+  >
+    <nav class="px-16 ">
+      <div
+        class="container flex flex-col items-center p-5 mx-auto md:flex-wrap md:flex-row"
+      >
+        <div class="flex items-center gap-10 logo">
+          <div class="flex items-center">
+            <span
+              class="px-2 py-2 text-xl font-bold text-black bg-yellow-500 rounded-full"
+              ><a href="D:\Codzium\index.html">&#60;&#92;&#62;</a></span
+            >
+            <span class="ml-1 text-xl text-white"><a href="index.html">Codzium</a></span>
+          </div>
+          <div class="md:hidden">
+            <button
+              class="inline-flex items-center px-5 py-1.5 text-base font-medium text-black bg-yellow-500 border border-yellow-500 rounded hover:border-yellow-500 hover:text-yellow-500 hover:bg-transparent md:mt-0"
+            >
+              Donate
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-4 h-4 ml-1"
+                viewBox="0 0 24 24"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div
+          class="items-center justify-center hidden px-8 mt-4 md:flex md:px-5 md:mt-0 ext-base md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400"
+        >
+        <a href="D:\Codzium\index.html"
+        class="mr-5 text-white one hover:cursor-pointer hover:text-yellow-500"
+        >Components</a
+      >
+      <!-- <a
+        class="mr-5 text-white two hover:cursor-pointer hover:text-yellow-500"
+        >Templates</a
+      > -->
+      <!-- <a
+        class="mr-5 text-white two hover:cursor-pointer hover:text-yellow-500"
+        >Gradients</a
+      > -->
+      <!-- <a
+        class="mr-5 text-white two hover:cursor-pointer hover:text-yellow-500"
+        >Shaper</a
+      > -->
+      <!-- <a
+        class="mr-5 text-white three hover:cursor-pointer hover:text-yellow-500"
+        >About</a
+      > -->
+      <a href="mblog.html" 
+        class="mr-5 text-white four hover:cursor-pointer hover:text-yellow-500"
+        >Blog</a
+      >
+        </div>
+
+        <button
+          class="md:inline-flex items-center px-5 py-1.5 hidden mt-4 text-base font-medium text-black bg-yellow-500 border border-yellow-500 rounded hover:border-yellow-500 hover:text-yellow-500 hover:bg-transparent md:mt-0"
+        >
+          Donate
+          <svg
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            class="w-4 h-4 ml-1"
+            viewBox="0 0 24 24"
+          >
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+     <!-- scroll-indiactor -->
+     <div class="sticky top-0 z-10 progress-container">
+        <div class="bg-yellow-500 progress-bar" id="myBar"></div>
+      </div>
+
+      
+    <div class="flex flex-col items-center justify-center space-y-2 cont" >
+        <h1 class="w-9/12 my-6 mt-10 text-4xl font-medium tracking-wider text-yellow-500 md:w-7/12 md:text-5xl">How to Use Tailwind CSS ?</h1>
+        <img src="2.webp" class="w-9/12 rounded-lg h-96 md:w-7/12 " alt="">
+        <div class= "w-9/12 space-y-3 text-lg font-light tracking-wide text-gray-200 md:w-7/12">
+            <h2 class="mt-2 tracking-wider first-letter:text-4xl">Tailwind CSS is a great option if you want to create bespoke user interfaces rapidly and effectively. A selection of low-level utility classes are provided by this utility-first CSS framework, which may be used to produce unique designs. We'll explore how to use Tailwind CSS and all of its advantages in this blog article.</h2>
+
+            
+
+            <h2 class="tracking-wider">Let's start by looking into Tailwind CSS's "utility-first" strategy. It offers a set of utility classes that may be used to create bespoke designs rather than a set of pre-designed UI components. These classes are designed to be very composable, which makes it simple to create complex UI components by combining a few simple classes.</h2>
+
+
+            <h2 class="tracking-wider">
+              You must include the pre-built CSS file in your HTML page to begin utilising Tailwind CSS. However, you may also create your own CSS file with unique setup using the Tailwind CLI. As a result, you have the freedom to modify the default parameters to suit your design requirements. For instance, you may adjust the default font sizes, spacing values, and colours to conform to your brand rules.
+            </h2>
+            <h2 class="tracking-wider">
+              The fact that Tailwind CSS promotes uniformity in your design is one of its finest features. You can make sure that all the UI components on your website have a unified look and feel by using a collection of pre-defined utility classes. Because you only need to make changes once to alter the design of various parts, it might be simpler to maintain your codebase.
+            </h2>
+            <h2 class="tracking-wider">
+              With Tailwind CSS, responsive design is also a breeze. You may utilise a collection of responsive utility classes provided by the framework to modify the layout of items based on the size of the screen. Rather of having to create unique media queries for each element, this may save you a tonne of time and work.
+            </h2>
+            <h2 class="tracking-wider">
+              React, Vue, Angular, and Svelte are just a few of the many front-end frameworks and technologies that Tailwind CSS works extremely well with. This indicates that you may create dynamic user interfaces with Tailwind CSS in conjunction with your choice framework.
+            </h2>
+            
+         
+            
+           <h2 class="tracking-wider">
+ 
+            In conclusion, Tailwind CSS is a strong and adaptable CSS framework that can make it simple and quick to create unique user experiences. It is simple to create sophisticated UI components with a consistent appearance and feel thanks to the utility-first approach and pre-defined utility classes. It is a great option for any project because to its responsive design capabilities and interoperability with well-known front-end frameworks. Tailwind CSS will be a useful addition to your toolbox because to its vibrant community and frequent updates.
+           </h2>
+            
+           <h2>Here are some basic examples of how you can use Tailwind CSS to style various elements on a webpage:</h2>
+
+           <h2>1.Setting the background color of an element:</h2>
+           <pre>
+            <code>
+  &#x3C;div class=&#x22;bg-blue-500&#x22;&#x3E;This element has a blue background.&#x3C;/div&#x3E;
+            </code>
+           </pre>
+            
+           <h2>2.Setting the text color of an element:</h2>
+           <pre>
+            <code>
+  &#x3C;p class=&#x22;text-red-500&#x22;&#x3E;This text is red.&#x3C;/p&#x3E;
+            </code>
+           </pre>
+           
+           <h2>3.Setting the font size of an element:</h2>
+           <pre>
+            <code>
+  &#x3C;h1 class=&#x22;text-2xl&#x22;&#x3E;This is a large heading.&#x3C;/h1&#x3E;
+            </code>
+           </pre>
+
+           <h2>4.Adding padding to an element:</h2>
+           <pre>
+            <code>
+              
+&#x3C;div class=&#x22;py-4&#x22;&#x3E;This element has padding on the top and bottom.&#x3C;/div&#x3E;
+            </code>
+           </pre>
+
+
+
+           <h2>5.Adding margin to an element:</h2>
+           <pre>
+            <code>
+  &#x3C;div class=&#x22;mx-8&#x22;&#x3E;This element has margin on the left and right.&#x3C;/div&#x3E;
+            </code>
+           </pre>
+           
+           <h2 class="tracking-wider">These are just a few examples of how you may decorate your website with Tailwind CSS. The framework offers a broad selection of utility classes that you may use to build bespoke designs, and the official documentation website offers a comprehensive reference of all the classes and usage guidelines.</h2>
+        </div>
+
+        <h1 class="text-gray-200 ">Source : Internet </h1>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <footer
+    class="flex md:hidden items-center flex-col justify-center gap-2 p-3 py-5 pt-6 mt-10 bg-[#12171f]"
+  >
+    <div class="flex gap-5 left">
+      <div class="flex items-center -mt-2">
+        <span
+          class="px-2 py-2 text-xl font-bold text-black bg-yellow-500 rounded-full"
+          >&#60;&#92;&#62;</span
+        >
+        <span class="ml-1 text-xl text-white">Codezium</span>
+      </div>
+      <!-- <div class="w-[0.095rem] h-8 bg-white hidden md:block"></div> -->
+    </div>
+    <div class="flex text-white right">
+      Copyright &#169; 2023 . Made with ❤️ by
+      <span class="mx-1 font-medium text-yellow-500">Prakash</span>
+      <!-- <span class="mx-1 font-medium text-yellow-500">Bihar </span> -->
+      <!-- <img src="if.png" class="w-8 -mt-[0.18rem]" alt="" /> -->
+    </div>
+  </footer>
+
+  <!-- ===========FOOTER 2 SECTION STARTS HERE -->
+  <footer
+    class="md:flex items-center hidden justify-center gap-3 p-3 py-5 pt-6 mt-10 bg-[#12171f]"
+  >
+    <div class="left">
+      <div class="flex items-center">
+        <span
+          class="px-2 py-2 text-xl font-bold text-black bg-yellow-500 rounded-full"
+          >&#60;&#92;&#62;</span
+        >
+        <span class="ml-1 text-xl text-white">Codzium</span>
+      </div>
+    </div>
+    <div class="w-[0.095rem] h-8 bg-white"></div>
+    <div class="flex items-center text-white right">
+      Copyright &#169; 2023 . Made with ❤️ by
+      <span class="mx-1 font-medium text-yellow-500">Prakash</span>
+      <!-- <span class="mx-1 font-medium text-yellow-500">Bihar </span> -->
+      <!-- <img src="if.png" class="w-8 -mt-[0.18rem]" alt="" /> -->
+    </div>
+  </footer>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>  
+</body>
+</html>
